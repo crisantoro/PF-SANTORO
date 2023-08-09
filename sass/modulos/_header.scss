@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Fasthand&family=Pacifico&display=swap');
+
+header{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background-color: chocolate;
+    div{
+        #logo-header{
+            background-color: chocolate;
+            @include flexbox(row, wrap, center, center);
+            span{
+                font-family: 'Pacifico', cursive;
+                font-size: 1.8rem;
+                color: rgb(255, 255, 255);               
+            }
+        }
+        nav{
+            background-color: chocolate;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            div{
+                padding-left: 9%;
+                div{
+                    ul{
+                        width: 100%;
+                        @include flexbox(row, wrap, start, center);
+                        li{
+                            a{
+                                @include reseteo-lista;
+                                padding: 10px;
+                                font-size: 1.3rem;
+                                color: rgb(255, 255, 255);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

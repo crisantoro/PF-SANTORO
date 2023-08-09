@@ -1,0 +1,123 @@
+#main-contacto{
+    section{
+        @include flexbox(row,wrap,center,center);
+        margin-top: 5%;
+        margin-bottom: 5%;
+        h2{
+            text-align: center;
+            font-weight: bold;
+        }
+        #intro-formulario{
+            @include flexbox(row,wrap,center,center);
+            h3{
+                width: 100%;
+                text-align: center;
+                font-size: 1rem;
+                padding: 2.5%;
+                font-weight: bolder;
+            }
+            h4{
+                font-size: 1rem;
+                width: 100%;
+                text-align: center;
+                padding: 5%;
+            }
+            p{
+                font-size: 1rem;
+                text-align: center;
+                width: 50%;
+            }
+        }
+        #formulario{
+            @include flexbox(row,wrap,center,center);
+            #nombres{
+                width: 80%;
+                margin-bottom: 2.5%;
+            }
+            #email{
+                width: 80%;
+                margin-bottom: 2.5%;
+            }
+            #telefono{
+                width: 80%;
+                margin-bottom: 2.5%;
+            }
+            #fechas{
+                width: 80%;
+                margin-bottom: 2.5%;
+            }
+            #mensaje{
+                width: 80%;
+                margin-bottom: 2.5%;
+
+            }
+            #difusion{
+                width: 80%;
+                margin-bottom: 0%;
+            }
+            #trabajo{
+                width: 80%;
+            }
+            #boton-envio{
+                width: 40%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    section{
+        h1{
+            padding-bottom: 10px;
+        }
+        h2{
+            padding-bottom: 10px;
+        }
+        div{
+            margin-bottom: 20px;
+            span{
+                padding-right: 70px;
+            }
+            .ancho{
+                width: 35%;
+            }
+            .ancho-email{
+                width: 40%;
+            }
+        }
+
+        .etiqueta-tipo-fotografia{
+            margin-top: 20px;
+        }
+        select{
+            width: 40%;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+
+        .margen-box{
+            margin-left: 5%;
+        }
+
+        .margen-textarea{
+            margin-top: 2%;
+            font-size: 1.5rem;
+        }
+
+        .margen-btn-enviar{
+            margin-left: 45%;
+        }
+    }
